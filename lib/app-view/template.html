@@ -1,0 +1,7 @@
+<section id="todoapp">
+  <input on-enter="{{this.add}}" type="text" ref="title"
+         placeholder="what needs to be done?">
+  <ul each="{{items}}">
+    <item title="{{title}}"></item>
+  </ul>
+</section>

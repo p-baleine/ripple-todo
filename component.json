@@ -1,0 +1,9 @@
+{
+  "name": "ripple-todo",
+  "paths": [
+    "lib"
+  ],
+  "local": [
+    "boot"
+  ]
+}

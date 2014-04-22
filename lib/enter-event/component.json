@@ -1,0 +1,8 @@
+{
+  "name": "enter-event",
+  "description": "add directive for enter event",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}

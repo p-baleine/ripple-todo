@@ -1,0 +1,21 @@
+{
+  "name": "item-view",
+  "dependencies": {
+    "ripplejs/ripple": "*",
+    "ripplejs/events": "*",
+    "ripplejs/refs": "*"
+  },
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "templates": [
+    "template.html"
+  ],
+  "styles": [
+    "item-view.css"
+  ],
+  "local": [
+    "enter-event"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "boot",
+  "dependencies": {
+    "ripplejs/ripple": "*"
+  },
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "json": [
+    "seed-data.json"
+  ],
+  "local": [
+    "app-view"
+  ]
+}

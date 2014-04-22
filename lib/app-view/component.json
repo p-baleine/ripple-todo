@@ -1,0 +1,20 @@
+{
+  "name": "app-view",
+  "dependencies": {
+    "ripplejs/ripple": "*",
+    "ripplejs/each": "*",
+    "ripplejs/events": "*",
+    "ripplejs/refs": "*"
+  },
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "templates": [
+    "template.html"
+  ],
+  "local": [
+    "item-view",
+    "enter-event"
+  ]
+}

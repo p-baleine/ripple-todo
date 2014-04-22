@@ -1,0 +1,10 @@
+<li class="todo-item{{editing ? ' editing' : ''}}{{done ? ' done' : ''}}">
+  <div class="view" on-dblclick="{{this.edit}}">
+    <input ref="done" on-change="{{this.toggle}}"
+           type="checkbox" class="toggle"{{done ? 'checked' : ''}}>
+    <label>{{title}}</label>
+    <button on-click="{{this.destroy}}" class="destroy">&times;</button>
+  </div>
+  <input ref="edit" on-enter="{{this.update}}"
+         type="text" class="edit" value="{{title}}">
+</li>
