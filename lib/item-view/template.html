@@ -3,7 +3,7 @@
     <input ref="done" on-change="{{this.toggle}}"
            type="checkbox" class="toggle"{{done ? 'checked' : ''}}>
     <label>{{title}}</label>
-    <button on-click="{{this.destroy}}" class="destroy">&times;</button>
+    <button on-click="{{this.removeItem.bind(this, $index)}}" class="destroy">&times;</button>
   </div>
   <input ref="edit" on-enter="{{this.update}}"
          type="text" class="edit" value="{{title}}">
